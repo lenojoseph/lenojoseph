@@ -2,7 +2,7 @@
 
 # Anna Joseph
 
-Hi, I am Joseph I am from tamil Nadu but I speak Tamil, Malayalam, Kannada, Tulu, Hindi and english. I am a fullstack developer, I have been coding for almost 2+ years and now I am starting my own projects.
+Hi, I am Joseph I am from Tamil Nadu but I speak Tamil, Malayalam, Kannada, Tulu, Hindi and english. I am a fullstack developer, I have been coding for almost 2+ years and now I am starting my own projects.
 
 ![Website](https://img.shields.io/website?down_color=Red&down_message=Site%20Down&up_color=ff69b4&up_message=Site%20Up&url=https%3A%2F%2Flenobot.xyz)
 ![Discord](https://img.shields.io/discord/602713878727622666?color=ff69b4&logo=Discord&logoColor=ff69b4)
