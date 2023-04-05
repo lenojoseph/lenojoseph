@@ -14,7 +14,7 @@ Hi, I am Joseph I am from Tamil Nadu but I speak Tamil, Malayalam, Kannada, Tulu
 
 # Skills
 <p align="center">
-<img src="https://skillicons.dev/icons?i=js,vscode,nodejs,nextjs,react,tailwind,md,discord,git,github,docker,html,css,cloudflare,mongodb,mysql,sqlite,sequelize,astro,express,powershell,boostrap,ps&theme=dark"
+<img src="https://skillicons.dev/icons?i=js,vscode,nodejs,nextjs,react,tailwind,md,discord,git,github,docker,html,css,cloudflare,mongodb,mysql,sqlite,sequelize,astro,express,powershell,ps&theme=dark"
 </p>
  
  <details>
