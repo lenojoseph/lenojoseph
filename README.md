@@ -1,4 +1,4 @@
-<img align='left' src='./asset/lenohi.png' width='25%' heigh="35%">
+<img align='left' src='./asset/lenohi.png' width='20%' heigh="30%">
 
 # Anna Joseph
 
