@@ -16,18 +16,28 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install jq -y
+
       - name: Fetch Bot Status
         id: get_status
         run: |
-          STATUS=$(curl -s http://54.39.8.32:25616/bot-status || echo "offline")
-          echo "Fetched Bot Status: $STATUS"
-          echo "status=$STATUS" >> $GITHUB_ENV
+          STATUS=$(curl -s http://54.39.8.32:25616/bot-status || echo '{"status":"offline"}')
+          BOT_STATUS=$(echo $STATUS | jq -r '.status')
+          echo "Fetched Bot Status: $BOT_STATUS"
+          echo "status=$BOT_STATUS" >> $GITHUB_ENV
 
       - name: Update README
         run: |
+          if [ "$status" = "online" ]; then
+            STATUS_TEXT="🟢 Online"
+          else
+            STATUS_TEXT="🔴 Offline"
+          fi
           echo "Before Update:"
           cat README.md
-          sed -i "s/Bot Status: .*/Bot Status: $status/" README.md
+          sed -i "s/Bot Status: .*/Bot Status: $STATUS_TEXT/" README.md
           echo "Last Updated: $(date)" >> README.md
           echo "After Update:"
           cat README.md
