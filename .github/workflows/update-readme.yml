@@ -2,30 +2,42 @@ name: Update README with Bot Status
 
 on:
   schedule:
-    cron: "*/2 * * * *" # Runs every 2 minutes
+    - cron: "*/2 * * * *" # Runs every 2 minutes
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Step 2: Fetch Bot Status
       - name: Fetch Bot Status
         id: get_status
         run: |
-          STATUS=$(curl -s http://54.39.8.32:25616/bot-status) # Replace with your API URL
+          # Replace with your bot's status endpoint
+          STATUS=$(curl -s  http://54.39.8.32:25616/bot-status || echo "offline")
+          echo "Fetched Bot Status: $STATUS"
           echo "status=$STATUS" >> $GITHUB_ENV
 
+      # Step 3: Update the README file
       - name: Update README
         run: |
+          echo "Before Update:"
+          cat README.md
           sed -i "s/Bot Status: .*/Bot Status: $status/" README.md
+          echo "Last Updated: $(date)" >> README.md
+          echo "After Update:"
+          cat README.md
 
-      - name: Commit Changes
+      # Step 4: Commit and push the changes
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
           git add README.md
-          git commit -m "Update bot status" || echo "No changes to commit"
+          git commit -m "Update bot status: $status" || echo "No changes to commit"
           git push
