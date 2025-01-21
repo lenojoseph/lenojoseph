@@ -3,7 +3,7 @@ name: Update README with Bot Status
 on:
   schedule:
     - cron: "*/2 * * * *" # Runs every 2 minutes
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   update-readme:
@@ -19,7 +19,7 @@ jobs:
         id: get_status
         run: |
           # Replace with your bot's status endpoint
-          STATUS=$(curl -s  http://54.39.8.32:25616/bot-status || echo "offline")
+          STATUS=$(curl -s http://54.39.8.32:25616/bot-status || echo "offline")
           echo "Fetched Bot Status: $STATUS"
           echo "status=$STATUS" >> $GITHUB_ENV
 
@@ -33,7 +33,7 @@ jobs:
           echo "After Update:"
           cat README.md
 
-      # Step 4: Commit and push the changes
+      # Step 4: Commit and Push Changes
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
