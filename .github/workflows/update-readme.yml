@@ -1,0 +1,31 @@
+name: Update README with Bot Status
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Runs every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Bot Status
+        id: get_status
+        run: |
+          STATUS=$(curl -s http://localhost:3000/bot-status) # Replace with your API URL
+          echo "status=$STATUS" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/Bot Status: .*/Bot Status: $status/" README.md
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add README.md
+          git commit -m "Update bot status" || echo "No changes to commit"
+          git push
