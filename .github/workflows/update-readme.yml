@@ -2,7 +2,7 @@ name: Update README with Bot Status
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # Runs every 30 minutes
+    cron: "*/2 * * * *" # Runs every 2 minutes
   workflow_dispatch:
 
 jobs:
