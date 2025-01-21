@@ -9,6 +9,7 @@ Hi, I am Joseph I am from Tamil Nadu but I speak Tamil, Malayalam, Kannada, Tulu
 ![Twitter Follow](https://img.shields.io/twitter/follow/lenodiscordbot?color=ff69b4&label=%40lenodiscordbot&logo=Twitter&logoColor=ff69b4&style=plastic)
 [![BANNER](https://img.shields.io/badge/Discord-%F0%9F%8C%B8%20Leno%20Caf%C3%A9%20%F0%9F%8C%B8-ff69b4)](https://discord.gg/DHmsbVEcuN)
 [![BANNER](https://img.shields.io/badge/Support-Hosting%20%26%20Developement-ff69b4)](https://ko-fi.com/annajoseph)  
+![NPM Version](https://img.shields.io/npm/v/lenopackage?style=flat&label=Leno%20Package&color=%23ffc7e1)
   
 [![Discord Bots](https://top.gg/api/widget/605794795608342528.svg)](https://top.gg/bot/605794795608342528)
 
