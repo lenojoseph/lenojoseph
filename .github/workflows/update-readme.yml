@@ -38,7 +38,6 @@ jobs:
           echo "Before Update:"
           cat README.md
           sed -i "s/Bot Status: .*/Bot Status: $STATUS_TEXT/" README.md
-          echo "Last Updated: $(date)" >> README.md
           echo "After Update:"
           cat README.md
 
