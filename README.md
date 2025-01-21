@@ -10,6 +10,9 @@ Hi, I am Joseph I am from Tamil Nadu but I speak Tamil, Malayalam, Kannada, Tulu
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Flenobot.xyz&up_message=up&down_message=down&down_color=%23FF0000&style=flat&label=Leno%20Site&link=https%3A%2F%2Flenobot.xyz)
 
+### Bot Status
+Bot Status: Offline
+
 
 # Skills
 <p align="center">
