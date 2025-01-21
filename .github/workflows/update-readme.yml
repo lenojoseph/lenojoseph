@@ -15,7 +15,7 @@ jobs:
       - name: Fetch Bot Status
         id: get_status
         run: |
-          STATUS=$(curl -s http://localhost:3000/bot-status) # Replace with your API URL
+          STATUS=$(curl -s http://54.39.8.32:25616/bot-status) # Replace with your API URL
           echo "status=$STATUS" >> $GITHUB_ENV
 
       - name: Update README
