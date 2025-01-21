@@ -9,6 +9,8 @@
 ### 💻 Currently working on
 ![NPM Version](https://img.shields.io/npm/v/lenopackage?logo=npm&label=npm%20lenopackage&color=FFC7E1)
 
+![NPM Last Update](https://img.shields.io/npm/last-update/lenopackage?logo=npm&logoColor=FFC7E1&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
+
 
 
 ### 🤖 Leno Discord Bot Status
