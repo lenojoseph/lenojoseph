@@ -10,9 +10,9 @@
 
 ### 💻 Currently working on
 #### _CustomEmbed and Pagination Handler for Discord.js_
-![NPM Version](https://img.shields.io/npm/v/lenopackage?logo=npm&label=npm%20lenopackage&color=FFC7E1)
+![NPM Version](https://img.shields.io/npm/v/lenopackages?logo=npm&label=npm%20lenopackage&color=FFC7E1)
 
-![NPM Last Update](https://img.shields.io/npm/last-update/lenopackage?logo=npm&logoColor=FFC7E1&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
+![NPM Last Update](https://img.shields.io/npm/last-update/lenopackages?logo=npm&logoColor=FFC7E1&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
 
 This package provides utilities for creating custom embeds and handling paginated embeds in a Discord bot using `discord.js`. It includes a `CustomEmbed` class for easily generating embeds with a default style and a `handlePagination` function for interactive pagination with buttons.
 
