@@ -14,6 +14,8 @@
 
 ![NPM Last Update](https://img.shields.io/npm/last-update/lenopackages?logo=npm&logoColor=Green&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/lenojoseph/lenopackages/build.yml?logo=github&label=Testing)
+
 This package provides utilities for creating custom embeds and handling paginated embeds in a Discord bot using `discord.js`. It includes a `CustomEmbed` class for easily generating embeds with a default style and a `handlePagination` function for interactive pagination with buttons.
 
 - for more detailed info [check out!](https://www.npmjs.com/package/lenopackage)
