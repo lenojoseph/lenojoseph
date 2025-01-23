@@ -2,17 +2,17 @@
 <h1 align="left">Hi 👋 I'm Joseph</h1>
 
 
-![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Flenobotdiscord&style=flat&logo=X&logoColor=FFC7E1&label=lenobotdiscord&color=FFC7E1)
-![Discord](https://img.shields.io/discord/1298533911869128725?logo=Discord&logoColor=FFC7E1&label=Leno%20Support&color=FFC7E1&link=https%3A%2F%2Fdiscord.gg%2FPNpVAp2vwP)
+![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Flenobotdiscord&style=flat&logo=X&logoColor=Green&label=lenobotdiscord&color=Green)
+![Discord](https://img.shields.io/discord/1298533911869128725?logo=Discord&logoColor=white&label=Leno%20Support&color=DiscordBlue&link=https%3A%2F%2Fdiscord.gg%2FPNpVAp2vwP)
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Flenobot.xyz&up_message=up&down_message=down&down_color=%23FF0000&style=flat&label=Leno%20Site&link=https%3A%2F%2Flenobot.xyz)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=http%3A%2F%2F54.39.8.32%3A25616%2Fbot-status&query=%24.status&label=Leno%20Discord%20Bot&color=FFC7E1)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=http%3A%2F%2F54.39.8.32%3A25616%2Fbot-status&query=%24.status&label=Leno%20Discord%20Bot&color=Green)
 
 ### 💻 Currently working on
 #### _CustomEmbed and Pagination Handler for Discord.js_
-![NPM Version](https://img.shields.io/npm/v/lenopackages?logo=npm&label=npm%20lenopackage&color=FFC7E1)
+![NPM Version](https://img.shields.io/npm/v/lenopackages?logo=npm&label=npm%20lenopackage&color=Green)
 
-![NPM Last Update](https://img.shields.io/npm/last-update/lenopackages?logo=npm&logoColor=FFC7E1&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
+![NPM Last Update](https://img.shields.io/npm/last-update/lenopackages?logo=npm&logoColor=Green&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
 
 This package provides utilities for creating custom embeds and handling paginated embeds in a Discord bot using `discord.js`. It includes a `CustomEmbed` class for easily generating embeds with a default style and a `handlePagination` function for interactive pagination with buttons.
 
