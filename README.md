@@ -10,7 +10,7 @@
 
 ### 💻 Currently working on
 #### _CustomEmbed and Pagination Handler for Discord.js_
-![NPM Version](https://img.shields.io/npm/v/leno.js?logo=npm&label=npm%20lenopackage&color=Green)
+![NPM Version](https://img.shields.io/npm/v/leno.js?logo=npm&label=npm%20leno.js&color=Green)
 
 ![NPM Last Update](https://img.shields.io/npm/last-update/leno.js?logo=npm&logoColor=Green&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Flenopackage)
 
