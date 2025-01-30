@@ -40,6 +40,8 @@ Bot Status: 🟢 Online
 
 Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements or report bugs.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P6JLCNY)
+
 - [Discord Server](https://discord.gg/PNpVAp2vwP)
 - [Our Site](https://lenobot.xyz)
 - [Joseph e-Mail](mailto:developer@lenobot.xyz)
