@@ -21,7 +21,7 @@ This package provides utilities for creating custom embeds and handling paginate
 - for more detailed info [check out!](https://www.npmjs.com/package/lenopackage)
 
 ### 🤖 Leno Discord Bot Status
-Bot Status: 🔴 Offline
+Bot Status: 🟢 Online
 
 # ✨ Ambitions
 
